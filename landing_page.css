@@ -1,0 +1,84 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #cacaca;
+    color: rgb(58, 58, 58);
+}
+.imagem{
+    text-align: center;
+}
+
+img {
+    max-width: 80%; /* A imagem se ajustará automaticamente ao tamanho do contêiner */
+    height: auto; /* Manter a proporção original da imagem */
+    margin: 20px 0; /* Margem superior e inferior de 20 pixels */
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+section {
+    background-color: #7f92ff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #810000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #27a9ff;
+    color: #fff;
+}
