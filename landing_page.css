@@ -8,35 +8,45 @@
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #e2e2e2;
     padding: 20px;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #cacaca;
-    color: rgb(58, 58, 58);
+.container {
+    display: flex; /* Usar flexbox para criar um layout flexível */
+    align-items: center; /* Alinhar verticalmente no centro */
 }
-.imagem{
-    text-align: center;
+
+.image-container {
+    flex: 1; /* A imagem ocupará 50% da largura do contêiner */
+    text-align: center; /* Alinhar a imagem ao centro horizontalmente */
 }
 
 img {
-    max-width: 80%; /* A imagem se ajustará automaticamente ao tamanho do contêiner */
+    max-width: 100%; /* A imagem se ajustará automaticamente ao tamanho do contêiner */
     height: auto; /* Manter a proporção original da imagem */
     margin: 20px 0; /* Margem superior e inferior de 20 pixels */
 }
 
-header h1 {
-    font-size: 36px;
+.text-container {
+    flex: 1; /* O texto ocupará 50% da largura do contêiner */
+    padding: 20px; /* Adicionar algum espaço interno para separar o texto da imagem */
+    color: #062863;
+}
+.imagem{
+    text-align: center;
+}
+.ivb {  
+   color: #062863;
+
 }
 
+
 section {
-    background-color: #7f92ff;
+    background-color: #ffffff;
     margin: 20px 0;
     padding: 20px;
-    border: 1px solid rgb(104, 104, 104);
+    border: 1px solid rgb(6, 8, 110);
     border-radius: 5px;
 }
 
@@ -60,16 +70,14 @@ label {
     margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="submit"] {
+input[type="submit"]{
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
 }
 
 input[type="submit"] {
-    background-color: #810000;
+    background-color: #d80000;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -79,6 +87,6 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: #27a9ff;
+    background-color: #062863;
     color: #fff;
 }
