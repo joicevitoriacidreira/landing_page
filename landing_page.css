@@ -41,6 +41,30 @@ img {
 
 }
 
+/* Estilo do cabeçalho e menu de navegação */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
 
 section {
     background-color: #ffffff;
@@ -70,17 +94,75 @@ label {
     margin-bottom: 5px;
 }
 
+/* Estilize as avaliações */
+.avaliacao {
+    display: inline-block; /* Faz as avaliações aparecerem em linha */
+    width: 30%; /* Ajuste a largura conforme necessário */
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.avaliacao img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilize o contêiner das avaliações */
+#avaliacoes {
+    text-align: center;
+}
+
+/* Estilize as avaliações */
+.avaliacao {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Estilize as avaliações */
+.avaliacao {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Estilize as imagens */
+.avaliacao img {
+    max-width: 30%; /* Define um tamanho máximo para as imagens */
+    height: auto;
+    display: block; /* Remove espaço extra sob as imagens */
+    margin: 0 auto; /* Centraliza as imagens horizontalmente */
+    vertical-align: middle; /* Centraliza as imagens verticalmente */
+    border-radius: 100px;
+}
+
+/* Estilize o contêiner das avaliações */
+#avaliacoes {
+    text-align: center;
+}
+
 input[type="submit"]{
-    width: 100%;
+    width: 40%;
     padding: 10px;
     margin-bottom: 10px;
+    
 }
 
 input[type="submit"] {
-    background-color: #d80000;
+    background-color: #ff0000;
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 footer {
